@@ -1,0 +1,252 @@
+2021-11-02 11:12:26.175 +01:00 [INF] New Method
+2021-11-02 11:12:26.242 +01:00 [INF] System.Exception: Exception of type 'System.Exception' was thrown.
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorComplete.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorComplete.cs:line 81
+2021-11-02 11:20:37.028 +01:00 [INF] New Error
+2021-11-02 11:20:37.100 +01:00 [ERR] System.FormatException: The string '16:05asd' was not recognized as a valid DateTime. There is an unknown word starting at index '5'.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.ConvertTimesToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 83
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 62
+2021-11-02 11:23:43.559 +01:00 [INF] New Error
+2021-11-02 11:23:43.628 +01:00 [ERR] System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.ConvertTimesToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 85
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 63
+2021-11-02 11:23:46.138 +01:00 [INF] New Error
+2021-11-02 11:23:46.138 +01:00 [ERR] System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.ConvertTimesToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 85
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 63
+2021-11-02 11:25:22.877 +01:00 [INF] New Error
+2021-11-02 11:25:22.944 +01:00 [ERR] System.FormatException: The string '13:12s' was not recognized as a valid DateTime. There is an unknown word starting at index '5'.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorComplete.CalculateOverTime(TimeSpan today, DateTime workHours) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorComplete.cs:line 119
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorComplete.CalculateWorkHours(Double workLoad) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorComplete.cs:line 107
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorComplete.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorComplete.cs:line 84
+2021-11-12 12:42:44.165 +01:00 [INF] Calculation complete
+2021-11-12 12:44:15.126 +01:00 [INF] New Error
+2021-11-12 12:44:15.226 +01:00 [ERR] System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.CalculateTimes.ConvertToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\CalculateTimes.cs:line 22
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorComplete.ConvertToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorComplete.cs:line 62
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorComplete.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorComplete.cs:line 74
+
+2021-11-12 12:44:28.682 +01:00 [INF] New Error
+2021-11-12 12:44:28.682 +01:00 [ERR] System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.CalculateTimes.ConvertToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\CalculateTimes.cs:line 22
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorComplete.ConvertToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorComplete.cs:line 62
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorComplete.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorComplete.cs:line 74
+
+2021-11-12 12:44:53.165 +01:00 [INF] Calculation complete
+
+2021-11-15 09:38:23.700 +01:00 [INF] Calculation complete
+
+2021-11-15 09:38:33.636 +01:00 [INF] Calculation complete
+
+2021-11-18 13:55:02.894 +01:00 [INF] Calculation complete
+
+2021-11-30 08:07:19.148 +01:00 [INF] New Error
+2021-11-30 08:07:19.327 +01:00 [ERR] System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.CalculateTimes.ConvertToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\CalculateTimes.cs:line 32
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.ConvertTimesToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 90
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 73
+
+2021-11-30 08:07:31.288 +01:00 [INF] New Error
+2021-11-30 08:07:31.288 +01:00 [ERR] System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.CalculateTimes.ConvertToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\CalculateTimes.cs:line 32
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.ConvertTimesToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 90
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 73
+
+2021-11-30 08:07:31.996 +01:00 [INF] New Error
+2021-11-30 08:07:31.996 +01:00 [ERR] System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.CalculateTimes.ConvertToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\CalculateTimes.cs:line 32
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.ConvertTimesToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 90
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 73
+
+2021-11-30 08:09:37.686 +01:00 [INF] New Error
+2021-11-30 08:09:37.754 +01:00 [ERR] System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.CalculateTimes.ConvertToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\CalculateTimes.cs:line 32
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.ConvertTimesToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 90
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 73
+
+2021-11-30 08:29:40.907 +01:00 [INF] New Error
+2021-11-30 08:29:40.975 +01:00 [ERR] System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.CalculateTimes.ConvertToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\CalculateTimes.cs:line 33
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.ConvertTimesToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 98
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 81
+
+2021-11-30 08:32:14.674 +01:00 [INF] New Error
+2021-11-30 08:32:14.747 +01:00 [ERR] System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.CalculateTimes.ConvertToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\CalculateTimes.cs:line 32
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.ConvertTimesToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 97
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 80
+
+2021-11-30 08:33:44.642 +01:00 [INF] New Error
+2021-11-30 08:33:44.712 +01:00 [ERR] System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.CalculateTimes.ConvertToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\CalculateTimes.cs:line 32
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.ConvertTimesToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 98
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 81
+
+2021-11-30 08:34:29.150 +01:00 [INF] New Error
+2021-11-30 08:34:29.217 +01:00 [ERR] System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.CalculateTimes.ConvertToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\CalculateTimes.cs:line 32
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.ConvertTimesToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 98
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 81
+
+2021-11-30 08:34:34.253 +01:00 [INF] New Error
+2021-11-30 08:34:34.254 +01:00 [ERR] System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.CalculateTimes.ConvertToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\CalculateTimes.cs:line 33
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.ConvertTimesToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 98
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 81
+
+2021-11-30 08:34:51.142 +01:00 [INF] New Error
+2021-11-30 08:34:51.144 +01:00 [ERR] System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.CalculateTimes.ConvertToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\CalculateTimes.cs:line 33
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.ConvertTimesToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 98
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 81
+
+2021-11-30 08:42:36.131 +01:00 [INF] New Error
+2021-11-30 08:42:36.205 +01:00 [ERR] System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at ProjectCollection.TimeCalculator.CalculateTimes.ConvertToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\CalculateTimes.cs:line 32
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.ConvertTimesToDateTime(String start, String end) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 97
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 80
+
+2021-11-30 08:42:42.713 +01:00 [INF] New Error
+2021-11-30 08:42:42.714 +01:00 [ERR] System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToDouble(String value)
+   at ProjectCollection.TimeCalculator.CalculateTimes.CalculateWorkTime(DateTime start, DateTime end, String lunch) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\CalculateTimes.cs:line 21
+   at ProjectCollection.TimeCalculator.FrmTimeCalculatorSimple.BtnCalculate_Click(Object sender, EventArgs e) in C:\Users\michael.hadorn.INF\source\repos\projectcollection\TimeCalculator\FrmTimeCalculatorSimple.cs:line 81
+
+2021-11-30 10:42:48.914 +01:00 [INF] Calculation complete
+
+2021-11-30 10:42:54.936 +01:00 [INF] Calculation complete
+
+2021-11-30 11:23:02.388 +01:00 [ERR] UserInput was incorrect
+
+2021-11-30 11:25:03.797 +01:00 [ERR] UserInput was incorrect
+
+2021-11-30 11:42:48.008 +01:00 [ERR] UserInput was incorrect
+
+2021-11-30 11:43:23.426 +01:00 [ERR] UserInput was incorrect
+
+2021-11-30 11:44:31.009 +01:00 [ERR] UserInput was incorrect
+
+2021-11-30 11:44:34.162 +01:00 [ERR] UserInput was incorrect
+
+2021-11-30 11:44:37.994 +01:00 [ERR] UserInput was incorrect
+
+2021-11-30 11:47:12.778 +01:00 [ERR] Arbeitsschluss ist ungültig^.
+
+2021-11-30 11:53:16.177 +01:00 [ERR] Arbeitsbeginn ist ungültig.
+
+2021-11-30 11:54:48.430 +01:00 [ERR] Arbeitsbeginn ist ungültig.
+
+2021-11-30 11:55:03.754 +01:00 [ERR] Arbeitsbeginn ist ungültig.
+
+2021-11-30 11:55:03.755 +01:00 [ERR] Mittagspause in Minuten ist ungültig.
+
+2021-11-30 15:30:05.304 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2021-11-30 15:31:47.336 +01:00 [ERR] Arbeitsbeginn ist ungültig.
+
+2021-11-30 15:31:47.344 +01:00 [ERR] Mittagspause in Minuten ist ungültig.
+
+2021-11-30 15:31:47.345 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2021-11-30 16:43:53.758 +01:00 [ERR] Arbeitsbeginn ist ungültig.
+
+2021-11-30 16:43:53.766 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2021-11-30 16:44:31.158 +01:00 [ERR] Arbeitsbeginn ist ungültig.
+
+2021-11-30 16:44:31.159 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2021-11-30 16:44:50.397 +01:00 [ERR] Arbeitsbeginn ist ungültig.
+
+2021-11-30 16:44:50.397 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2021-11-30 16:44:52.269 +01:00 [ERR] Arbeitsbeginn ist ungültig.
+
+2021-11-30 16:44:52.269 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2021-11-30 16:46:11.384 +01:00 [ERR] Arbeitsbeginn ist ungültig.
+
+2021-11-30 16:46:11.393 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2021-11-30 16:46:55.333 +01:00 [ERR] Arbeitsbeginn ist ungültig.
+
+2021-11-30 16:46:55.334 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2021-11-30 16:47:28.948 +01:00 [ERR] Arbeitsbeginn ist ungültig.
+
+2021-11-30 16:47:28.957 +01:00 [ERR] Mittagspause in Minuten ist ungültig.
+
+2021-11-30 16:47:28.957 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2021-11-30 16:47:32.424 +01:00 [ERR] Arbeitsbeginn ist ungültig.
+
+2021-11-30 16:47:32.424 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2021-11-30 16:47:34.373 +01:00 [ERR] Arbeitsbeginn ist ungültig.
+
+2021-11-30 16:47:34.374 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2021-11-30 16:47:37.924 +01:00 [ERR] Arbeitsbeginn ist ungültig.
+
+2021-11-30 16:47:37.925 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2021-12-02 12:39:15.263 +01:00 [ERR] Mittagspause in Minuten ist ungültig.
+
+2021-12-03 13:34:25.999 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2021-12-03 13:34:31.745 +01:00 [ERR] Mittagspause in Minuten ist ungültig.
+
+2021-12-03 13:34:31.746 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2021-12-03 13:34:36.297 +01:00 [ERR] Arbeitsbeginn ist ungültig.
+
+2021-12-03 13:34:36.298 +01:00 [ERR] Mittagspause in Minuten ist ungültig.
+
+2021-12-03 13:34:36.298 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2021-12-03 13:34:40.856 +01:00 [ERR] Mittagspause in Minuten ist ungültig.
+
+2021-12-03 13:34:40.857 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2021-12-03 13:42:22.481 +01:00 [ERR] Arbeitsbeginn ist ungültig.
+
+2021-12-03 13:42:22.489 +01:00 [ERR] Mittagspause in Minuten ist ungültig.
+
+2021-12-03 13:42:22.489 +01:00 [ERR] Arbeitsschluss ist ungültig.
+
+2022-05-06 08:08:29.763 +02:00 [INF] Calculation complete
+
